@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_margin="20dp">
+
+        <ImageView
+            android:id="@+id/BackButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:src="@drawable/arrow_back" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sign Up"
+                android:textAlignment="center"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:textColor="#262626"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Need to see a man about a dog? or a woman about a duck? This is a service we provide."
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textColor="#525252"
+                android:layout_marginTop="10dp"/>
+
+
+            <EditText
+                android:id="@+id/usernameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_edittext_background"
+                android:hint="username / innuendo"
+                android:inputType="text"
+                android:padding="8dp"
+                android:textColor="@color/black"
+               />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_edittext_background"
+                android:hint="Super Secret Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@color/black"
+               />
+
+            <EditText
+                android:id="@+id/confirmPasswordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_edittext_background"
+                android:hint="Confirm Super Duper Secret Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@color/black"
+               />
+
+
+            <Button
+                android:id="@+id/RegisterButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="#22C55E"
+                android:text="Request Access"
+                android:textColor="@android:color/white"
+                android:textSize="18dp"
+                app:cornerRadius="5dp" />
+
+        </LinearLayout>
+
+</RelativeLayout>

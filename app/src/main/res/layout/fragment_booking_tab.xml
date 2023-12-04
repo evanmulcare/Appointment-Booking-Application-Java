@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- TabLayout for Upcoming and History tabs -->
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#E5E7EB"
+        android:textColor="?attr/tabIndicatorColor"
+        android:textSize="16sp"
+        app:tabMode="fixed"
+        app:tabGravity="fill"/>
+
+    <!-- ViewPager to hold the fragments for upcoming and History bookings -->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tabLayout"/>
+
+</RelativeLayout>

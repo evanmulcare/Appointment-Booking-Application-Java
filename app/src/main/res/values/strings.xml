@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Evan_Mulcare_Assignment_Two</string>
+
+    //ScheduleNewBookingController
+    <string name="booking_detail_text">You are booked in to %1$s at %2$s on the %3$s</string>
+    <string name="booking_canceled_message">Booking canceled!</string>
+    <string name="error_cancelling_booking">Error cancelling booking.</string>
+    //RegisterController
+    <string name="registration_failed_credential_mismatch">Registration failed. Make sure passwords match.</string>
+    <string name="registration_successful">Registration Successful. You may now login with these credentials. Good luck.</string>
+    <string name="registration_failed_try_again">Registration Failed. Please try again.</string>
+    //LoginController
+    <string name="invalid_username_password">Invalid username or password</string>
+    //BookingVerticalAdapter
+    <string name="booked_by_you">Booked by you</string>
+    <string name="booked_by_user">Booked by %1$s</string>
+    <string name="booking_status_available">Available</string>
+    <string name="booking_confirmed_message">Booking Confirmed!</string>
+    <string name="error_updating_booking">Error updating booking.</string>
+    <string name="booking_already_taken">Booking is already taken by %1$s. Choose another booking.</string>
+    <string name="extra_booking_title">bookingTitle</string>
+    <string name="extra_booking_time">bookingTime</string>
+    <string name="extra_booking_date">bookingDate</string>
+
+    //BookingTabController
+    <string name="status_upcoming">Upcoming</string>
+    <string name="status_history">History</string>
+
+    //TitleOption
+    <string-array name="people_options">
+        <item>man</item>
+        <item>woman</item>
+        <item>Transvestite</item>
+        <item>child</item>
+        <item>elderly person</item>
+        <item>doctor</item>
+        <item>teacher</item>
+    </string-array>
+
+    <string-array name="animal_options">
+        <item> a dog</item>
+        <item> a horse</item>
+        <item> a cat</item>
+        <item> a T-rex</item>
+    </string-array>
+
+    <string-array name="see_options">
+        <item>See</item>
+        <item>Visit</item>
+        <item>Meet</item>
+        <item>Inspect</item>
+    </string-array>
+
+    <string-array name="about_options">
+        <item>about</item>
+        <item>regarding</item>
+        <item>concerning</item>
+        <item>In relation to</item>
+    </string-array>
+
+</resources>

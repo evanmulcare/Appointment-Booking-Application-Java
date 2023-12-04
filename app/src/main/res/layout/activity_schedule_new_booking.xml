@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layout_margin="20dp">
+
+    <ImageView
+        android:id="@+id/BackButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/arrow_back" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Thank You!"
+            android:textAlignment="center"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:textColor="#262626"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="314dp"
+            app:tint="#22C55E"
+            android:src="@drawable/check_circle"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Booking confirmed."
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#262626"
+            />
+        <TextView
+            android:id="@+id/bookingDetailText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="You are booked in to see a man about a horse."
+            android:textAlignment="center"
+            android:textColor="#525252"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="#c62923"
+            android:text="Cancel Booking"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            app:cornerRadius="5dp" />
+        <Button
+            android:id="@+id/doneButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#22C55E"
+            android:text="Done"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"
+            app:cornerRadius="5dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

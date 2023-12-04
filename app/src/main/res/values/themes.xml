@@ -1,0 +1,7 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Evan_Mulcare_Assignment_Two" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#22C55E</item>
+    </style>
+
+    <style name="Theme.Evan_Mulcare_Assignment_Two" parent="Base.Theme.Evan_Mulcare_Assignment_Two" />
+</resources>
